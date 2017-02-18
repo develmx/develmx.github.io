@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Devel.MX</title>
-    <link>http://develmx.github.io/index.xml</link>
-    <description>Recent content on Devel.MX</description>
+    <title>Dart on Devel.MX</title>
+    <link>http://develmx.github.io/categories/dart/index.xml</link>
+    <description>Recent content in Dart on Devel.MX</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Powered by [Hugo](//gohugo.io). Theme by [PPOffice](http://github.com/ppoffice).</copyright>
-    <lastBuildDate>Wed, 15 Feb 2017 23:40:03 -0600</lastBuildDate>
-    <atom:link href="http://develmx.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://develmx.github.io/categories/dart/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Actualización a Dart 1.22</title>
@@ -63,54 +62,6 @@ sum(empty); // OK.
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Y mÁs cambios que se pueden consultar en el post original.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Las peores contraseñas del 2016</title>
-      <link>http://develmx.github.io/2017/02/04/las-peores-conrase%C3%B1as-del-2016</link>
-      <pubDate>Sat, 04 Feb 2017 23:41:17 -0600</pubDate>
-      
-      <guid>http://develmx.github.io/2017/02/04/las-peores-conrase%C3%B1as-del-2016</guid>
-      <description>&lt;p&gt;En el 2007 se decía que el 1% de la población era dueña del 35% de &lt;a href=&#34;https://en.wikipedia.org/wiki/Wealth_inequality_in_the_United_States&#34;&gt;Estados Unidos&lt;/a&gt;. Es poco común que existan estas disparidades tan exageradas en muchas áreas pero hoy hablaremos de una donde mucho menos del 1% del Universo de Búsqueda afecta el 50%.&lt;/p&gt;
-
-&lt;p&gt;Keepler, una empresa que cuyo producto es una plataforma que administra tus contraseñas. Estudio un conjunto de las contraseñas que han sido hackeadas en el 2016 y descubrieron que 25 contraseñas representan el 50% de las contraseñas obtenidas.&lt;/p&gt;
-
-&lt;p&gt;Las cuales son:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;123456&lt;/li&gt;
-&lt;li&gt;123456789&lt;/li&gt;
-&lt;li&gt;qwerty&lt;/li&gt;
-&lt;li&gt;12345678&lt;/li&gt;
-&lt;li&gt;111111&lt;/li&gt;
-&lt;li&gt;1234567890&lt;/li&gt;
-&lt;li&gt;1234567&lt;/li&gt;
-&lt;li&gt;password&lt;/li&gt;
-&lt;li&gt;123123&lt;/li&gt;
-&lt;li&gt;987654321&lt;/li&gt;
-&lt;li&gt;qwertyuiop&lt;/li&gt;
-&lt;li&gt;mynoob&lt;/li&gt;
-&lt;li&gt;123321&lt;/li&gt;
-&lt;li&gt;666666&lt;/li&gt;
-&lt;li&gt;18atcskd2w&lt;/li&gt;
-&lt;li&gt;7777777&lt;/li&gt;
-&lt;li&gt;1q2w3e4r&lt;/li&gt;
-&lt;li&gt;654321&lt;/li&gt;
-&lt;li&gt;555555&lt;/li&gt;
-&lt;li&gt;3rjs1la7qe&lt;/li&gt;
-&lt;li&gt;google&lt;/li&gt;
-&lt;li&gt;1q2w3e4r5t&lt;/li&gt;
-&lt;li&gt;123qwe&lt;/li&gt;
-&lt;li&gt;zxcvbnm&lt;/li&gt;
-&lt;li&gt;1q2w3e&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Aunque algunos como &amp;ldquo;qwertyuiop&amp;rdquo; o &amp;ldquo;1q2w3e4r&amp;rdquo; se ven seguros al escribirlos en el teclado se demuestra lo inseguros que son.&lt;/p&gt;
-
-&lt;p&gt;Y en la lista hay un par como &amp;ldquo;18atcskd2w&amp;rdquo; o &amp;ldquo;3rjs1la7qe&amp;rdquo; los cuales aunque parecen seguros, parecen ser contraseñas comunes en cuentas bots.&lt;/p&gt;
-
-&lt;p&gt;Personalmente pienso que todo el esquema de uso de contraseñas es una tecnología obsoleta. En todo caso se puede consultar toda la &lt;a href=&#34;https://betanews.com/wp-content/uploads/2017/01/2016-passwords.jpg&#34;&gt;informacion aqui&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     

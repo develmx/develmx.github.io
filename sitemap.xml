@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://develmx.github.io/2017/02/15/actualizaci%C3%B3n-a-dart-1_22</loc>
+    <lastmod>2017-02-15T23:40:03-06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://develmx.github.io/2017/02/04/las-peores-conrase%C3%B1as-del-2016</loc>
     <lastmod>2017-02-04T23:41:17-06:00</lastmod>
   </url>
@@ -12,8 +17,20 @@
   </url>
   
   <url>
+    <loc>http://develmx.github.io/categories/dart/</loc>
+    <lastmod>2017-02-15T23:40:03-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://develmx.github.io/</loc>
-    <lastmod>2017-02-04T23:41:17-06:00</lastmod>
+    <lastmod>2017-02-15T23:40:03-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://develmx.github.io/tags/news/</loc>
+    <lastmod>2017-02-15T23:40:03-06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -25,7 +42,7 @@
   
   <url>
     <loc>http://develmx.github.io/post/</loc>
-    <lastmod>2017-02-04T23:41:17-06:00</lastmod>
+    <lastmod>2017-02-15T23:40:03-06:00</lastmod>
     <priority>0</priority>
   </url>
   

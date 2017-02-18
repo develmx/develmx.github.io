@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
-    <title>Devel.MX</title>
+    <title>Actualización a Dart 1.22 &middot; Devel.MX</title>
     <meta name="generator" content="Hugo 0.18.1" />
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -10,10 +10,7 @@
       <meta name="description" content="Some examples">
     
     
-      <link href="http://develmx.github.io/index.xml" rel="alternate" type="application/rss+xml" title="Devel.MX" />
-      <link href="http://develmx.github.io/index.xml" rel="feed" type="application/rss+xml" title="Devel.MX" />
-    
-    <link rel="canonical" href="http://develmx.github.io/"/>
+    <link rel="canonical" href="http://develmx.github.io/2017/02/15/actualizaci%C3%B3n-a-dart-1_22"/>
     <link rel="icon" href="http://develmx.github.io/favicon.ico">
     <link rel="apple-touch-icon" href="http://develmx.github.io/apple-touch-icon.png"/>
     <link rel="stylesheet" href="http://develmx.github.io/css/style.css">
@@ -23,10 +20,12 @@
     
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet' type='text/css'>
-    <meta property="og:title" content="Devel.MX" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="http://develmx.github.io/" />
+    <meta property="og:title" content="Actualización a Dart 1.22" />
+<meta property="og:description" content="( Post traducido de http://news.dartlang.org/2017/02/dart-122-faster-tools-assert-messages.html )
+Como característica de un lenguaje vivo, de vez en cuando un lenguage tiene modificaciones que mejoran la calidad del lenguaje
+Inicio más rápido de herramientas Los archivos compilados de Dart tienen la peculiaridad de inicar mucho muy rápido porque tienen implementada una funcionalidad llamada snapshots, la cual consiste en que el estado inicial de la aplicación queda en el compilado al inicio del codigo asi al leerlo por el intérprete automáticamente puede iniciar la ejecución." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://develmx.github.io/2017/02/15/actualizaci%C3%B3n-a-dart-1_22" />
 
 
 <meta property="og:updated_time" content="2017-02-15T23:40:03-06:00"/>
@@ -39,13 +38,35 @@
 
 
 
-    
-    
-<meta itemprop="name" content="Devel.MX">
-<meta itemprop="description" content="">
-
 
     
+    
+<meta itemprop="name" content="Actualización a Dart 1.22">
+<meta itemprop="description" content="( Post traducido de http://news.dartlang.org/2017/02/dart-122-faster-tools-assert-messages.html )
+Como característica de un lenguaje vivo, de vez en cuando un lenguage tiene modificaciones que mejoran la calidad del lenguaje
+Inicio más rápido de herramientas Los archivos compilados de Dart tienen la peculiaridad de inicar mucho muy rápido porque tienen implementada una funcionalidad llamada snapshots, la cual consiste en que el estado inicial de la aplicación queda en el compilado al inicio del codigo asi al leerlo por el intérprete automáticamente puede iniciar la ejecución.">
+
+
+<meta itemprop="dateModified" content="2017-02-15T23:40:03-06:00" />
+<meta itemprop="wordCount" content="293">
+
+
+
+<meta itemprop="keywords" content="dart,seguridad,news,passwords," />
+
+    
+
+  <meta name="twitter:card" content="summary"/>
+
+
+
+<meta name="twitter:title" content="Actualización a Dart 1.22"/>
+<meta name="twitter:description" content="( Post traducido de http://news.dartlang.org/2017/02/dart-122-faster-tools-assert-messages.html )
+Como característica de un lenguaje vivo, de vez en cuando un lenguage tiene modificaciones que mejoran la calidad del lenguaje
+Inicio más rápido de herramientas Los archivos compilados de Dart tienen la peculiaridad de inicar mucho muy rápido porque tienen implementada una funcionalidad llamada snapshots, la cual consiste en que el estado inicial de la aplicación queda en el compilado al inicio del codigo asi al leerlo por el intérprete automáticamente puede iniciar la ejecución."/>
+<meta name="twitter:site" content="@onlyangel"/>
+
+
     
 
     
@@ -58,7 +79,7 @@
 
 
 <div id="container">
-    <header id="header">
+	<header id="header">
   <div id="header-main" class="header-inner">
     <div class="outer">
       <a href="http://develmx.github.io/" id="logo">
@@ -146,9 +167,10 @@
   </div>
 </header>
 
-
-    <div class="outer">
-    <aside id="profile">
+   	
+   	<div class="outer">
+   		
+	    <aside id="profile">
   <div class="inner profile-inner">
     <div class="base-info profile-block">
       <img id="avatar" src="http://develmx.github.io/imagenes/mifoto2.jpg">
@@ -251,13 +273,14 @@
   </div>
 </aside>
 
-    <section id="main">
-    
-    
-    <article class="article article-type-post" itemscope="" itemprop="blogPost">
+	    
+
+	    
+<section id="main">
+
+    <article id="page-undefined" class="article article-type-page" itemscope="" itemprop="blogPost">
         <div class="article-inner">
             
-            </a>
 
             <header class="article-header">
     <a href="http://develmx.github.io/2017/02/15/actualizaci%C3%B3n-a-dart-1_22">
@@ -310,17 +333,54 @@
 </header>
 
             <div class="article-entry" itemprop="articleBody">
-                <p>
-                    ( Post traducido de <a href="http://news.dartlang.org/2017/02/dart-122-faster-tools-assert-messages.html">http://news.dartlang.org/2017/02/dart-122-faster-tools-assert-messages.html</a> )
-Como característica de un lenguaje vivo, de vez en cuando un lenguage tiene modificaciones que mejoran la calidad del lenguaje
-Inicio más rápido de herramientas Los archivos compilados de Dart tienen la peculiaridad de inicar mucho muy rápido porque tienen implementada una funcionalidad llamada snapshots, la cual consiste en que el estado inicial de la aplicación queda en el compilado al inicio del codigo asi al leerlo por el intérprete automáticamente puede iniciar la ejecución.
-                    <br>
-                </p>
-                <p class="article-more-link">
-                    <a href="http://develmx.github.io/2017/02/15/actualizaci%C3%B3n-a-dart-1_22">
-                        Read more
-                    </a>
-                </p>
+                
+
+<p>( Post traducido de <a href="http://news.dartlang.org/2017/02/dart-122-faster-tools-assert-messages.html">http://news.dartlang.org/2017/02/dart-122-faster-tools-assert-messages.html</a> )</p>
+
+<p>Como característica de un lenguaje vivo, de vez en cuando un lenguage tiene modificaciones que mejoran la calidad del lenguaje</p>
+
+<h2 id="inicio-más-rápido-de-herramientas">Inicio más rápido de herramientas</h2>
+
+<p>Los archivos compilados de Dart tienen la peculiaridad de inicar mucho muy rápido porque tienen implementada una funcionalidad llamada <em>snapshots</em>, la cual consiste en que el estado inicial de la aplicación queda en el compilado al inicio del codigo asi al leerlo por el intérprete automáticamente puede iniciar la ejecución.</p>
+
+<p>Y ahora han portado esta funcionalidad para las herramientas del SDK como el dart2js, el analyzer, y el pub. Y el resultado es increíble.</p>
+
+<p>Comparación de los tiempo después de la mejora:
+<img src="/images/chart001.png" alt="alt text" title="Chart de las mejoras" /></p>
+
+<p><a href="http://www.youtube.com/watch?v=lqE4u8s8Iik"><img src="http://img.youtube.com/vi/lqE4u8s8Iik/0.jpg" alt="Mas informacion sobre AOT compilling" /></a></p>
+
+<h2 id="mensajes-de-assert">Mensajes de Assert</h2>
+
+<p>El principio de falla rapido es fundamental para hacer software de alta calidad y en dart, <a href="https://www.dartlang.org/guides/language/language-tour#assert">Assert</a>
+es la mejor manera de fallar rápido. Pero hasta ahora no era posible agregar un mensaje a los aserts, al menos que se tuvieran que hacer una secuencia de <code>Throw</code> errors
+pero ahora son mucho más fáciles, como se puede ver a continuación:</p>
+
+<pre><code class="language-javascript">num measureDistance(List&lt;Place&gt; waypoints) {
+  assert(waypoints.any((point) =&gt; point.isInaccessible),
+         'At least one waypoint is inaccessible.');
+  // ...
+}
+</code></pre>
+
+<p>Y lo mejor al momento ejecutar en producción los Asserts no son evaluados lo que hace el proceso más rápido
+<img src="/images/realease-1.22.gif" alt="Asert Covariant example" title="Asert Covariant example" /></p>
+
+<h2 id="el-tipo-null-ahora-es-un-subtipo-de-cualquier-tipo-de-datos">El tipo <code>Null</code> ahora es un subtipo de cualquier tipo de datos</h2>
+
+<p>Osea se a movido el Tipo <code>Null</code> a la base de la jerarquía de todas las clases. Antes el <code>null</code> estaba en el fondo de los tipos ahora la clase <code>Null</code> también.</p>
+
+<pre><code class="language-javascript">final empty = &lt;Null&gt;[];
+
+String concatenate(List&lt;String&gt; parts) =&gt; parts.join();
+int sum(List&lt;int&gt; numbers) =&gt; numbers.fold(0, (sum, n) =&gt; sum + n);
+
+concatenate(empty); // OK.
+sum(empty); // OK.
+</code></pre>
+
+<p>Y mÁs cambios que se pueden consultar en el post original.</p>
+
             </div>
             <footer class="article-footer">
     <a data-url="http://develmx.github.io/2017/02/15/actualizaci%C3%B3n-a-dart-1_22" data-id="07b538c36a39648d8d0801020bfc3c38" class="article-share-link">
@@ -400,167 +460,50 @@ Inicio más rápido de herramientas Los archivos compilados de Dart tienen la pe
 </footer>
 
         </div>
-    </article>
+
+        
+<nav id="article-nav">
     
-    <article class="article article-type-post" itemscope="" itemprop="blogPost">
-        <div class="article-inner">
-            
-            <a href="http://develmx.github.io/2017/02/04/las-peores-conrase%C3%B1as-del-2016" itemprop="url">
-                <img src="http://develmx.github.io/images/2016-passwords.jpg" class="article-banner">
-            
-            </a>
-
-            <header class="article-header">
-    <a href="http://develmx.github.io/2017/02/04/las-peores-conrase%C3%B1as-del-2016">
-    <h1 class="article-title" itemprop="name">
-        Las peores contraseñas del 2016
-    </h1>
-    </a>
-    <div class="article-meta">
-
-        
-        <div class="article-date">
-            <i class="fa fa-calendar"></i>
-            <time datetime="2017-02-04 23:41:17 -0600 CST" itemprop="datePublished">2017-02-04</time>
-            &middot;
-            180
-            words
-            &middot;
-            1
-            minute read
-        </div>
-        
-        
-            
-            
-            <div class="article-category">
-                <i class="fa fa-folder"></i>
-                
-                
-                <a class="article-category-link" href="http://develmx.github.io/categories/seguridad">Seguridad</a>
-                
-                
-            </div>
-            
-        
-
-        
-            
-            
-            <div class="article-category">
-                <i class="fa fa-tags"></i>
-                
-                
-                <a class="article-category-link" href="http://develmx.github.io/tags/passwords">passwords</a>
-                
-                
-            </div>
-            
-        
-    </div>
-</header>
-
-            <div class="article-entry" itemprop="articleBody">
-                <p>
-                    En el 2007 se decía que el 1% de la población era dueña del 35% de Estados Unidos. Es poco común que existan estas disparidades tan exageradas en muchas áreas pero hoy hablaremos de una donde mucho menos del 1% del Universo de Búsqueda afecta el 50%.
-Keepler, una empresa que cuyo producto es una plataforma que administra tus contraseñas. Estudio un conjunto de las contraseñas que han sido hackeadas en el 2016 y descubrieron que 25 contraseñas representan el 50% de las contraseñas obtenidas.
-                    <br>
-                </p>
-                <p class="article-more-link">
-                    <a href="http://develmx.github.io/2017/02/04/las-peores-conrase%C3%B1as-del-2016">
-                        Read more
-                    </a>
-                </p>
-            </div>
-            <footer class="article-footer">
-    <a data-url="http://develmx.github.io/2017/02/04/las-peores-conrase%C3%B1as-del-2016" data-id="5b4fd00e827198793fbc0209778e7c70" class="article-share-link">
-        <i class="fa fa-share"></i>
-        Share
-    </a>
-    
-    <a href="http://develmx.github.io/2017/02/04/las-peores-conrase%C3%B1as-del-2016#disqus_thread" class="article-comment-link">
-        Comments
+    <a href="http://develmx.github.io/2017/02/04/las-peores-conrase%C3%B1as-del-2016" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">
+          Older
+      </strong>
+      <div class="article-nav-title">Las peores contraseñas del 2016</div>
     </a>
     
 
-    <script>
-    (function ($) {
-        
-        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
-            __SHARE_BUTTON_BINDED__ = true;
-        } else {
-            return;
-        }
-        $('body').on('click', function() {
-            $('.article-share-box.on').removeClass('on');
-        }).on('click', '.article-share-link', function(e) {
-            e.stopPropagation();
-
-            var $this = $(this),
-                url = $this.attr('data-url'),
-                encodedUrl = encodeURIComponent(url),
-                id = 'article-share-box-' + $this.attr('data-id'),
-                offset = $this.offset(),
-                box;
-
-            if ($('#' + id).length) {
-                box = $('#' + id);
-
-                if (box.hasClass('on')){
-                    box.removeClass('on');
-                    return;
-                }
-            } else {
-                var html = [
-                    '<div id="' + id + '" class="article-share-box">',
-                        '<input class="article-share-input" value="' + url + '">',
-                        '<div class="article-share-links">',
-                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
-                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
-                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
-                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
-                        '</div>',
-                    '</div>'
-                ].join('');
-
-              box = $(html);
-
-              $('body').append(box);
-            }
-
-            $('.article-share-box.on').hide();
-
-            box.css({
-                top: offset.top + 25,
-                left: offset.left
-            }).addClass('on');
-
-        }).on('click', '.article-share-box', function (e) {
-            e.stopPropagation();
-        }).on('click', '.article-share-box-input', function () {
-            $(this).select();
-        }).on('click', '.article-share-box-link', function (e) {
-            e.preventDefault();
-            e.stopPropagation();
-
-            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
-        });
-    })(jQuery);
-    </script>
-</footer>
-
-        </div>
-    </article>
     
-
-    <nav id="page-nav">
-
 </nav>
 
+
+    </article>
+
+    
+    <section id="comments">
+        <div id="disqus_thread">
+            <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'devel-mx';
+    var disqus_identifier = 'http:\/\/develmx.github.io\/2017\/02\/15\/actualizaci%C3%B3n-a-dart-1_22';
+    var disqus_title = 'Actualización a Dart 1.22';
+    var disqus_url = 'http:\/\/develmx.github.io\/2017\/02\/15\/actualizaci%C3%B3n-a-dart-1_22';
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        </div>
+    </section>
+    
 </section>
 
 
-    <aside id="sidebar">
+	    
+	    <aside id="sidebar">
     
 <div class="widget-wrap">
     <h3 class="widget-title">
@@ -599,7 +542,7 @@ Keepler, una empresa que cuyo producto es una plataforma que administra tus cont
                 <div class="item-thumbnail">
                     <a href="http://develmx.github.io/2017/02/04/las-peores-conrase%C3%B1as-del-2016" class="thumbnail">
                     
-                        <span style="background-image:url(http://develmx.github.io/images/2016-passwords.jpg)" alt="Devel.MX" class="thumbnail-image"></span>
+                        <span style="background-image:url(http://develmx.github.io/images/2016-passwords.jpg)" alt="Actualización a Dart 1.22" class="thumbnail-image"></span>
                     
                     </a>
                 </div>
@@ -715,7 +658,8 @@ Keepler, una empresa que cuyo producto es una plataforma que administra tus cont
     <div id="toTop" class="fa fa-angle-up"></div>
 </aside>
 
-    </div>
+	    
+	</div>
 </div>
 
 <footer id="footer">
